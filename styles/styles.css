@@ -1,0 +1,40 @@
+body{
+    background-color: #d1ffbd;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+label{
+    font-size: 1.5rem;
+    color: red;
+}
+
+input{
+    height: 40px;
+    width: 20vw;
+}
+.container{
+    text-align: center;
+    margin-top: 5%;
+}
+
+#box1,#box2,#box3,#btn,#msg{
+    margin-top: 2%;
+}
+
+#msg{
+    font-size: 1.5rem;
+    color: blue;
+}
+
+@media screen and (min-width: 992px) {
+    nav{
+        height: 15vh;
+    }
+    
+    .navbar-nav{
+        margin-left: 60%;
+    }
+}
+
