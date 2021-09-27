@@ -5,7 +5,7 @@ const msg=document.getElementById('msg')
 
 btn.addEventListener('click',()=>{
     console.log('click')
-    if(side1.value && side2.value){
+    if(side1.value && side2.value && side1.value > 0 && side2.value > 0 ){
        
         const sumOfSq= (Number(side1.value)**2) + (Number(side2.value)**2)
         const hypo= sumOfSq ** (1/2)

@@ -11,7 +11,9 @@ const msg=document.getElementById('msg');
 btn.addEventListener('click',()=>{
  if(Number(side1.value)+Number(side2.value)>Number(side3.value) &&
  Number(side1.value)+Number(side3.value)>Number(side2.value) &&
- Number(side3.value)+Number(side2.value)>Number(side1.value) 
+ Number(side3.value)+Number(side2.value)>Number(side1.value) && 
+ (Number(side1.value)) > 0 && (Number(side2.value)) > 0 && (Number(side3.value)) > 0 
+
  ){
  const s = (Number(side1.value) + Number(side2.value) + Number(side3.value))/2;
  console.log(s)

@@ -5,7 +5,7 @@ const btn=document.getElementById('btn');
 const msg=document.getElementById('msg');
 
 btn.addEventListener('click',()=>{
-   if(angle1.value && angle2.value && angle3.value){
+   if(angle1.value > 0  && angle2.value > 0 && angle3.value > 0){
 
         totalAngle=Number(angle1.value)+Number(angle2.value)+Number(angle3.value);
         if(totalAngle==180){
